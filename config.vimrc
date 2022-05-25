@@ -6,6 +6,9 @@ set nocompatible
 set autoread<
 
 let g:airline#extensions#tabline#enabled = 1 
+let g:airline_theme='angr'
+
+colorscheme monokai
 
 "Show line numbers
 set number
