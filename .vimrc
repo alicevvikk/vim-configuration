@@ -8,8 +8,8 @@ set autoread<
 let g:airline#extensions#tabline#enabled = 1 
 let g:airline_theme='angr'
 
-colorscheme tango 
-
+colorscheme tango
+"syntax enable
 "Show line numbers
 set number
 
