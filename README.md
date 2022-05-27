@@ -1,7 +1,12 @@
 # vim-configuration
 My custom vim configuration for Linux.
 
-# Linux
+# Unix 
+
+## Install using ```Makefile```
+Just type make if you are using unix or any linux distribution.
+
+## Manual Insallation
 Copy the following files(you can find them in this repo) on your ```~/home/<any_user>``` path.
 * ```config.vimrc``` as ```.vimrc```
 * ```vimrc.plug``` as ```.vimrc.plug```
@@ -12,6 +17,10 @@ For the plugin manager do the following:
 * If you don't want to use my custom colors, then you should delete this following line: ```colorscheme monokai``` in your ```.vimrc``` file
 
 As last step open open your ```vim``` editor and press ```ESC``` then press ```:``` and lastly simply write ```PlugInstall``` and hit enter.
+
+
+# IMPORTANT
+Both installations are used for ```monokai``` colorscheme, If you want another colorscheme then you should manually install it.
 
 # Useful Resources For Customizing Your Vim Editor:
 * [Intro to Vim Customization | Configuration and Plugins (YouTube)](https://www.youtube.com/watch?v=zE0hno3vV9M).
